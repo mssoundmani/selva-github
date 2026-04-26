@@ -1,3 +1,9 @@
 Hello Mani
 Thivinanth welcome our new life start 
 ready to perapre your goal 
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello Mani!");
+    }
+}
