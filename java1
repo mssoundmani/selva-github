@@ -1,9 +1,22 @@
-Hello Mani
-Thivinanth welcome our new life start 
-ready to perapre your goal 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Page</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+            text-align: center;
+        }
+        h1 {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello Mani!");
-    }
-}
+    <h1>Welcome!</h1>
+    <p>This page has some styling.</p>
+
+</body>
+</html>
