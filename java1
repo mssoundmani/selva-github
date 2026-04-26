@@ -1,14 +1,15 @@
-import java.util.Scanner;
+#include <iostream>
+using namespace std;
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+int main() {
+    int a, b;
 
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine();
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
 
-        System.out.println("Welcome " + name + "!");
-        
-        sc.close();
-    }
+    int sum = a + b;
+
+    cout << "Sum = " << sum << endl;
+
+    return 0;
 }
